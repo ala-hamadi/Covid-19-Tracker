@@ -1,0 +1,25 @@
+.formControl{
+    width: 20% !important;
+    margin-bottom: 20px !important;
+}
+.formControl .nativeSelect {
+    font-size: 18px !important;
+    user-select: none !important;
+    color: red !important;
+}
+.label{
+    color: #fff !important;
+}
+.menuItem{
+    color: #fff !important;
+}
+@media (min-width: 770px) and (max-width:959px) {
+    .formControl{
+        width: 30% !important 
+    }
+}
+@media (max-width:770px){
+    .formControl{
+        width: 50% !important;
+    }
+}

@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+}
+.darkMode{
+    background-color: #1e1e30;
+    min-height: 100vh;
+}
+.lighMode{
+    background-color: #f0f2f5 ;
+    height: 100%;
+    min-height: 100vh;
+}
+.container{
+    display:flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image{
+    width: 370px;
+    margin-top: 20px;
+}
+.fixed{
+    position: fixed;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+@media (max-width:770px){
+    .container{
+        margin: 0 10%;
+    }
+    .image{
+        width: 100%;
+    }
+}
+
+
